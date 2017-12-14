@@ -229,8 +229,8 @@ if __name__=='__main__':
 
     #store configuration
     config = dict()
-    config['datname'] = outdir_name + basename + '.dat'
-    config['vocabname'] = outdir_name + basename + '.vocab'
+    config['datname'] = outdir_name + basename + '.ldac'
+    config['vocabname'] = outdir_name + basename + '.tokens'
     config['dmapname'] = outdir_name + basename + '.dmap'
     config['minlength'] = parser.minlength
     config['minoccurrence'] = parser.minoccurrence
